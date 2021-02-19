@@ -1,0 +1,27 @@
+﻿<Page x:Class="Black_sklad.pages.catalog"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Black_sklad.pages"
+     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"      
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1600"
+      Title="catalog">
+
+    <Grid>
+        <Border MinWidth="1400" Margin="10,65,10,10" Background="White"
+                VerticalAlignment="Center" Padding="30" MaxWidth="450" CornerRadius="30" Height="725">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="100" Color="BlueViolet" ShadowDepth="0" />
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Каталог" FontSize="30" FontWeight="Bold" Margin="0,0,0,20" />
+                <Button Content="Добавить категорию" Click="Button_addcat_Click" Margin="0,0,1129,0" />
+                <Button Content="Редактировать категории"  Margin="0,0,1129,0" />
+                <DataGrid x:Name="categ" Margin="211,0,0,0" Height="541" />
+            </StackPanel>
+
+        </Border>
+    </Grid>
+</Page>

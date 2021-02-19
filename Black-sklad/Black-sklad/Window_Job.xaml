@@ -1,0 +1,26 @@
+﻿<Window x:Class="Black_sklad.Window_Job"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Black_sklad"
+        mc:Ignorable="d"
+        Title="Black-WareHouse" Height="900" Width="1600">
+    <Grid Cursor="Arrow" Background="Black" >
+        <Button Content="Монитор заказов" HorizontalAlignment="Left" VerticalAlignment="Top" Width="182" 
+                Height="37" Style="{StaticResource MaterialDesignFlatLightBgButton}" 
+                Command="{Binding monitor_Click}" />
+        <Button Content="Каталог" HorizontalAlignment="Left" VerticalAlignment="Top" Width="182" Height="37" Margin="182,0,0,0" 
+                Command="{Binding catalog_Click}" />
+            <Button Content="Склад" HorizontalAlignment="Left" VerticalAlignment="Top" Width="182" Height="37" Margin="364,0,0,0" 
+                    Command="{Binding warehous_Click}" />
+                <Button Content="Контрагенты" HorizontalAlignment="Left" VerticalAlignment="Top" Width="182" Height="37" Margin="546,0,0,0" 
+                        Command="{Binding counterpart_Click}" />
+        <Button Content="Статистика" HorizontalAlignment="Left" VerticalAlignment="Top" Width="182" Height="37" Margin="728,0,0,0"
+                Command="{Binding stat_Click}" />
+        <Button Content="Сменить пользователя" Click="Button_User_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Width="182" Height="37" Margin="1410,0,0,0"/>
+       
+        <Frame Margin="0,37,0,0" NavigationUIVisibility="Hidden" Content="{Binding CurrentPage}" Opacity="{Binding FrameOpacity}"/>
+    </Grid>
+</Window>
