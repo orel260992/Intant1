@@ -1,0 +1,17 @@
+C:\Users\evgeni\Desktop\bottel\bottesttelega.exe
+C:\Users\evgeni\Desktop\bottel\bottesttelega.dll
+C:\Users\evgeni\Desktop\bottel\bottesttelega.deps.json
+C:\Users\evgeni\Desktop\bottel\bottesttelega.runtimeconfig.json
+C:\Users\evgeni\Desktop\bottel\bottesttelega.pdb
+C:\Users\evgeni\Desktop\bottel\ClosedXML.dll
+C:\Users\evgeni\Desktop\bottel\DocumentFormat.OpenXml.dll
+C:\Users\evgeni\Desktop\bottel\ExcelNumberFormat.dll
+C:\Users\evgeni\Desktop\bottel\MihaZupan.HttpToSocks5Proxy.dll
+C:\Users\evgeni\Desktop\bottel\Microsoft.Win32.SystemEvents.dll
+C:\Users\evgeni\Desktop\bottel\Newtonsoft.Json.dll
+C:\Users\evgeni\Desktop\bottel\System.Drawing.Common.dll
+C:\Users\evgeni\Desktop\bottel\System.IO.Packaging.dll
+C:\Users\evgeni\Desktop\bottel\Telegram.Bot.dll
+C:\Users\evgeni\Desktop\bottel\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\evgeni\Desktop\bottel\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Users\evgeni\Desktop\bottel\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll

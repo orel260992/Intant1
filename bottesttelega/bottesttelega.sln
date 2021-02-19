@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bottesttelega", "bottesttelega\bottesttelega.csproj", "{7DA9A8EC-10A9-4314-93E7-F962B1F39E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C178D29-426D-4E08-9A8B-718F6E85E1B4}"
+	ProjectSection(SolutionItems) = preProject
+		Значок1.ico = Значок1.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA9A8EC-10A9-4314-93E7-F962B1F39E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA9A8EC-10A9-4314-93E7-F962B1F39E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA9A8EC-10A9-4314-93E7-F962B1F39E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA9A8EC-10A9-4314-93E7-F962B1F39E09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA86D548-E23C-4000-A4C3-BD702811406F}
+	EndGlobalSection
+EndGlobal
